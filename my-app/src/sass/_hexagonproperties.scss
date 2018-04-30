@@ -1,0 +1,285 @@
+.hexagon-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.hexagon{
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  transition:all .2s ease;
+  cursor: pointer;
+
+
+
+}
+
+.hexagon:nth-child(10n+6) {
+  margin-top: -30px;
+  margin-left: 85px;
+}
+
+.hexagon:nth-child(10n+11) {
+  margin-top: -30px;
+}
+
+.hexagon:nth-child(5n+7),
+.hexagon:nth-child(5n+8),
+.hexagon:nth-child(5n+9),
+.hexagon:nth-child(5n+10) {
+  margin-top: -30px;
+}
+
+#img1{
+  background-image: url("../images/1.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img2{
+  background-image: url("../images/2.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img3{
+  background-image: url("../images/3.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img4{
+  background-image: url("../images/4.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img5{
+  background-image: url("../images/5.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img6{
+  background-image: url("../images/6.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img7{
+  background-image: url("../images/7.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img8{
+  background-image: url("../images/8.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img9{
+  background-image: url("../images/9.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img10{
+  background-image: url("../images/10.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img11{
+  background-image: url("../images/11.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img12{
+  background-image: url("../images/12.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img13{
+  background-image: url("../images/13.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img14{
+  background-image: url("../images/14.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img15{
+  background-image: url("../images/15.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img16{
+  background-image: url("../images/16.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img17{
+  background-image: url("../images/17.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img18{
+  background-image: url("../images/18.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img19{
+  background-image: url("../images/19.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img20{
+  background-image: url("../images/20.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img21{
+  background-image: url("../images/21.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img22{
+  background-image: url("../images/22.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img23{
+  background-image: url("../images/23.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img24{
+  background-image: url("../images/24.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
+#img25{
+  background-image: url("../images/25.jpg");
+  background-size:contain;
+  background-repeat:no-repeat;
+  &:hover{
+    background-image:none;
+    background-color: rgb(255,255,255);
+  }
+}
+
