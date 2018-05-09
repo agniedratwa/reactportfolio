@@ -1,5 +1,12 @@
-import React from "react";
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink
+} from 'react-router-dom';
 class Section extends React.Component{
 
     render(){
@@ -8,7 +15,7 @@ class Section extends React.Component{
             <section>
                 <div className="container">
                     <div className="hexagon-container">
-                        <div id="img1" className="hexagon"/>
+                        <div id="img1" className="hexagon"><Link to="/people"></Link></div>
                         <div id="img2" className="hexagon"/>
                         <div id="img3" className="hexagon"/>
                         <div id="img4" className="hexagon"/>

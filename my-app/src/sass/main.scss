@@ -19,10 +19,12 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
+  position:fixed;
+  z-index: 3000;
 }
 
 a.welcomeLink{
-  color:white;
+  color: #AAF0D1;
   border:0.3px solid black;
   text-transform:uppercase;
   font-size:1rem;
@@ -32,14 +34,14 @@ a.welcomeLink{
   text-decoration:none;
   margin:70px;
   &:hover{
-    color:red;
+    color:coral;
   }
 
 
 }
 .menuContainer {
 
-  font-family: "Lato", sans-serif;
+  font-family: 'Lobster', cursive;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -52,6 +54,7 @@ a.welcomeLink{
     .icon-menu {
       font-size:2rem;
       padding:10px;
+      z-index: 2000;
 
 
 
@@ -72,12 +75,14 @@ a.welcomeLink{
 
 #flyoutMenu {
   width: 100vw;
-  height: 100vh;
-  background-color: rgba(240,250,240,0.7);
+  height: 40%;
+  background-color: rgba(240,250,240,0);
   position: fixed;
   display:flex;
-  justify-content:column;
-  align-items:center;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+  margin-top:50px;
   top: 0;
   left: 0;
   -webkit-transition: -webkit-transform .3s cubic-bezier(0, .52, 0, 1);
@@ -111,17 +116,21 @@ a.welcomeLink{
   color:black;
 }
 
-.navbarContent{
+#flyoutMenu .navbarContent{
   font-size:2rem;
   font-weight:200;
   padding:20px;
-  text-transform:uppercase;
+
 
   li{
     padding:5px;
   }
   .subMenu{
     font-size:1rem;
+    font-family: "Lato", sans-serif;
+    text-transform:uppercase;
+    margin-top:5px;
+    margin-bottom:5px;
   }
 
 }
@@ -216,6 +225,7 @@ footer{
   right: 0;
   text-align: right;
 }
+/*
 .rsc-arrow_left,
 .rsc-arrow_right {
   background-repeat: no-repeat;
@@ -223,6 +233,8 @@ footer{
   background-position: center;
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzA2cHgiIGhlaWdodD0iMzA2cHgiIHZpZXdCb3g9IjAgMCAzMDYgMzA2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDYgMzA2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGcgaWQ9ImNoZXZyb24tcmlnaHQiPjxwb2x5Z29uIHBvaW50cz0iOTQuMzUsMCA1OC42NSwzNS43IDE3NS45NSwxNTMgNTguNjUsMjcwLjMgOTQuMzUsMzA2IDI0Ny4zNSwxNTMgIi8+PC9nPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48L3N2Zz4=");
 }
+*/
+
 .rsc-arrow_left {
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);

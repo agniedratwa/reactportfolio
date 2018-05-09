@@ -14,8 +14,8 @@ class About extends React.Component{
                     In 2011 Agnieszka moved to Toronto (Canada) where she completed Creative Photography diploma program  at Humber College Institute of Technology and Advanced Learning.</p>
 
                     <p>Agnieszka has worked as a model&actress in Poland and Canada.</p>
-                    <p>Agent Warsaw: <a href="http://vanillamodels.pl" target="_blank">Vanilla Models</a></p>
-                    <p>Agent Toronto: <a href="http://sherrida.com">Sherrida Mgmt</a></p>
+                    <p className="warsaw">Agent Warsaw: <a href="http://vanillamodels.pl" target="_blank">Vanilla Models</a></p>
+                    <p className="toronto">Agent Toronto: <a href="http://sherrida.com">Sherrida Mgmt</a></p>
                 </div>
             </div>
 

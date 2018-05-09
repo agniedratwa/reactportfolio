@@ -7,12 +7,14 @@ import {
     Switch,
     NavLink
 } from 'react-router-dom';
+import { withRouter } from 'react-router'
 
 class HamburgerButton extends React.Component{
     render(){
         return(
 
-            <i class="icon-menu" onMouseDown={this.props.handleMouseDown} ></i>
+            <i class="icon-menu" onMouseDown={this.props.handleMouseDown}></i>
+
         )
     }
 }
@@ -20,11 +22,12 @@ class HamburgerButton extends React.Component{
 class NavBar extends React.Component {
     render() {
         return (
+
             <div id="flyoutMenu"
-                 onMouseDown={this.props.toggleMenu}
                  className={this.props.menuVisibility}>
                 <ul className="navbarContent">
-                    <li>Portfolio
+                    <li>
+                        <Link to="/">Portfolio</Link>
                         <ul className="subMenu">
                             <li>
                                 <Link to="/people">People</Link>
@@ -45,6 +48,7 @@ class NavBar extends React.Component {
                     </li>
                 </ul>
             </div>
+
         );
     }
 }

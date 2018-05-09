@@ -85,7 +85,7 @@ class CarouselLeftArrow extends React.Component {
                 className="carousel__arrow carousel__arrow--left"
                 onClick={this.props.onClick}
             >
-                <span>Lewo</span>
+                <span>^</span>
             </a>
         );
     }
@@ -100,7 +100,7 @@ class CarouselRightArrow extends React.Component {
                 className="carousel__arrow carousel__arrow--right"
                 onClick={this.props.onClick}
             >
-                <span> Prawo</span>
+                <span>^</span>
             </a>
         );
     }
