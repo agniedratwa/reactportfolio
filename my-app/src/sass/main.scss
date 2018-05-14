@@ -20,7 +20,7 @@ body{
   justify-content:center;
   align-items:center;
   position:fixed;
-  z-index: 3000;
+  z-index: 50000;
 }
 
 a.welcomeLink{
@@ -29,6 +29,7 @@ a.welcomeLink{
   text-transform:uppercase;
   font-size:1rem;
   font-family:'Lato';
+  text-shadow:1px 1px black;
   font-weight:200;
   padding:20px;
   text-decoration:none;
@@ -48,12 +49,15 @@ a.welcomeLink{
   align-items: center;
   width: 100%;
   height: 50px;
+  position:fixed;
+  z-index: 2000;
 
 }
 
     .icon-menu {
       font-size:2rem;
       padding:10px;
+      position:fixed;
       z-index: 2000;
 
 
@@ -266,22 +270,41 @@ footer{
   justify-content:center;
   align-items:center;
   margin:0 auto;
+  padding-top:75px;
+}
+
+.contactContainer{
+  padding-top:75px;
 }
 .about{
   width:400px;
   height:400px;
   font-family:Lato;
   justify-text:center;
+  display:flex;
+  flex-direction:column;
+
   p{
     margin:10px;
+  }
+  .warsaw, {
+    padding-top:35px;
   }
 }
 
 .profilePicture{
   width:400px;
   height:400px;
-  background-image:url("../images/1.jpg");
+  background-image:url("../images/about/1.jpg");
   background-repeat:no-repeat;
   background-size:contain;
 }
+
+
+.lobster{
+  font-family: 'Lobster', cursive;
+  font-size:2rem;
+}
+
+
 

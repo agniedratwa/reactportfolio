@@ -53,7 +53,8 @@ table {
 
 .hexagon-container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-weight: 200; }
 
 .hexagon {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -83,7 +84,14 @@ table {
   background-repeat: no-repeat; }
   #img1:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img2 {
   background-image: url("../images/2.jpg");
@@ -91,7 +99,14 @@ table {
   background-repeat: no-repeat; }
   #img2:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img3 {
   background-image: url("../images/3.jpg");
@@ -99,7 +114,14 @@ table {
   background-repeat: no-repeat; }
   #img3:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img4 {
   background-image: url("../images/4.jpg");
@@ -107,7 +129,14 @@ table {
   background-repeat: no-repeat; }
   #img4:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img5 {
   background-image: url("../images/5.jpg");
@@ -115,7 +144,14 @@ table {
   background-repeat: no-repeat; }
   #img5:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img6 {
   background-image: url("../images/6.jpg");
@@ -123,7 +159,14 @@ table {
   background-repeat: no-repeat; }
   #img6:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img7 {
   background-image: url("../images/7.jpg");
@@ -131,7 +174,14 @@ table {
   background-repeat: no-repeat; }
   #img7:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img8 {
   background-image: url("../images/8.jpg");
@@ -139,7 +189,14 @@ table {
   background-repeat: no-repeat; }
   #img8:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img9 {
   background-image: url("../images/9.jpg");
@@ -147,7 +204,14 @@ table {
   background-repeat: no-repeat; }
   #img9:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img10 {
   background-image: url("../images/10.jpg");
@@ -155,7 +219,14 @@ table {
   background-repeat: no-repeat; }
   #img10:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img11 {
   background-image: url("../images/11.jpg");
@@ -163,7 +234,14 @@ table {
   background-repeat: no-repeat; }
   #img11:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img12 {
   background-image: url("../images/12.jpg");
@@ -171,7 +249,14 @@ table {
   background-repeat: no-repeat; }
   #img12:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img13 {
   background-image: url("../images/13.jpg");
@@ -179,7 +264,14 @@ table {
   background-repeat: no-repeat; }
   #img13:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img14 {
   background-image: url("../images/14.jpg");
@@ -187,7 +279,14 @@ table {
   background-repeat: no-repeat; }
   #img14:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img15 {
   background-image: url("../images/15.jpg");
@@ -195,7 +294,14 @@ table {
   background-repeat: no-repeat; }
   #img15:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img16 {
   background-image: url("../images/16.jpg");
@@ -203,7 +309,14 @@ table {
   background-repeat: no-repeat; }
   #img16:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img17 {
   background-image: url("../images/17.jpg");
@@ -211,7 +324,14 @@ table {
   background-repeat: no-repeat; }
   #img17:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img18 {
   background-image: url("../images/18.jpg");
@@ -219,7 +339,14 @@ table {
   background-repeat: no-repeat; }
   #img18:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img19 {
   background-image: url("../images/19.jpg");
@@ -227,7 +354,14 @@ table {
   background-repeat: no-repeat; }
   #img19:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img20 {
   background-image: url("../images/20.jpg");
@@ -235,7 +369,14 @@ table {
   background-repeat: no-repeat; }
   #img20:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img21 {
   background-image: url("../images/21.jpg");
@@ -243,7 +384,14 @@ table {
   background-repeat: no-repeat; }
   #img21:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img22 {
   background-image: url("../images/22.jpg");
@@ -251,7 +399,14 @@ table {
   background-repeat: no-repeat; }
   #img22:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img23 {
   background-image: url("../images/23.jpg");
@@ -259,7 +414,14 @@ table {
   background-repeat: no-repeat; }
   #img23:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img24 {
   background-image: url("../images/24.jpg");
@@ -267,7 +429,14 @@ table {
   background-repeat: no-repeat; }
   #img24:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 #img25 {
   background-image: url("../images/25.jpg");
@@ -275,7 +444,14 @@ table {
   background-repeat: no-repeat; }
   #img25:hover {
     background-image: none;
-    background-color: white; }
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 200; }
 
 ul {
   padding: 0;
@@ -385,7 +561,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 3000; }
+  z-index: 50000; }
 
 a.welcomeLink {
   color: #AAF0D1;
@@ -393,6 +569,7 @@ a.welcomeLink {
   text-transform: uppercase;
   font-size: 1rem;
   font-family: 'Lato';
+  text-shadow: 1px 1px black;
   font-weight: 200;
   padding: 20px;
   text-decoration: none;
@@ -407,11 +584,14 @@ a.welcomeLink {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 50px; }
+  height: 50px;
+  position: fixed;
+  z-index: 2000; }
 
 .icon-menu {
   font-size: 2rem;
   padding: 10px;
+  position: fixed;
   z-index: 2000; }
 
 .theMenu {
@@ -578,19 +758,31 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 75px; }
+
+.contactContainer {
+  padding-top: 75px; }
 
 .about {
   width: 400px;
   height: 400px;
   font-family: Lato;
-  justify-text: center; }
+  justify-text: center;
+  display: flex;
+  flex-direction: column; }
   .about p {
     margin: 10px; }
+  .about .warsaw {
+    padding-top: 35px; }
 
 .profilePicture {
   width: 400px;
   height: 400px;
-  background-image: url("../images/1.jpg");
+  background-image: url("../images/about/1.jpg");
   background-repeat: no-repeat;
   background-size: contain; }
+
+.lobster {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem; }
