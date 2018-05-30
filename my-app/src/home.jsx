@@ -16,7 +16,7 @@ class Section extends React.Component{
                 <div className="container">
                     <div className="hexagon-container">
                         <div id="img1" className="hexagon">
-                            <Link to="/people">People</Link>
+                            <Link className="linkOne" to="/people">People</Link>
                         </div>
                         <div id="img2" className="hexagon">
                             <Link to="/people">People</Link>

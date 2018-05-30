@@ -57,31 +57,38 @@ table {
   font-weight: 200; }
 
 .hexagon {
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 300px;
   margin: 5px;
   transition: all .2s ease;
   cursor: pointer; }
 
-.hexagon:nth-child(10n+6) {
-  margin-top: -30px;
-  margin-left: 85px; }
-
-.hexagon:nth-child(10n+11) {
-  margin-top: -30px; }
-
-.hexagon:nth-child(5n+7),
-.hexagon:nth-child(5n+8),
-.hexagon:nth-child(5n+9),
-.hexagon:nth-child(5n+10) {
-  margin-top: -30px; }
+@media (min-width: 884px) {
+  .hexagon {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    transition: all .2s ease;
+    cursor: pointer; }
+  .hexagon:nth-child(10n+6) {
+    margin-top: -30px;
+    margin-left: 85px; }
+  .hexagon:nth-child(10n+11) {
+    margin-top: -30px; }
+  .hexagon:nth-child(5n+7),
+  .hexagon:nth-child(5n+8),
+  .hexagon:nth-child(5n+9),
+  .hexagon:nth-child(5n+10) {
+    margin-top: -30px; } }
 
 #img1 {
   background-image: url("../images/1.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img1 a {
+    color: transparent; }
   #img1:hover {
     background-image: none;
     background-color: white;
@@ -92,11 +99,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img1:hover a {
+      color: black; }
 
 #img2 {
   background-image: url("../images/2.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img2 a {
+    color: transparent; }
   #img2:hover {
     background-image: none;
     background-color: white;
@@ -107,11 +118,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img2:hover a {
+      color: black; }
 
 #img3 {
   background-image: url("../images/3.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img3 a {
+    color: transparent; }
   #img3:hover {
     background-image: none;
     background-color: white;
@@ -122,11 +137,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img3:hover a {
+      color: black; }
 
 #img4 {
   background-image: url("../images/4.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img4 a {
+    color: transparent; }
   #img4:hover {
     background-image: none;
     background-color: white;
@@ -137,11 +156,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img4:hover a {
+      color: black; }
 
 #img5 {
   background-image: url("../images/5.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img5 a {
+    color: transparent; }
   #img5:hover {
     background-image: none;
     background-color: white;
@@ -152,11 +175,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img5:hover a {
+      color: black; }
 
 #img6 {
   background-image: url("../images/6.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img6 a {
+    color: transparent; }
   #img6:hover {
     background-image: none;
     background-color: white;
@@ -167,11 +194,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img6:hover a {
+      color: black; }
 
 #img7 {
   background-image: url("../images/7.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img7 a {
+    color: transparent; }
   #img7:hover {
     background-image: none;
     background-color: white;
@@ -182,11 +213,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img7:hover a {
+      color: black; }
 
 #img8 {
   background-image: url("../images/8.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img8 a {
+    color: transparent; }
   #img8:hover {
     background-image: none;
     background-color: white;
@@ -197,11 +232,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img8:hover a {
+      color: black; }
 
 #img9 {
   background-image: url("../images/9.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img9 a {
+    color: transparent; }
   #img9:hover {
     background-image: none;
     background-color: white;
@@ -212,11 +251,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img9:hover a {
+      color: black; }
 
 #img10 {
   background-image: url("../images/10.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img10 a {
+    color: transparent; }
   #img10:hover {
     background-image: none;
     background-color: white;
@@ -227,11 +270,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img10:hover a {
+      color: black; }
 
 #img11 {
   background-image: url("../images/11.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img11 a {
+    color: transparent; }
   #img11:hover {
     background-image: none;
     background-color: white;
@@ -242,11 +289,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img11:hover a {
+      color: black; }
 
 #img12 {
   background-image: url("../images/12.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img12 a {
+    color: transparent; }
   #img12:hover {
     background-image: none;
     background-color: white;
@@ -257,11 +308,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img12:hover a {
+      color: black; }
 
 #img13 {
   background-image: url("../images/13.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img13 a {
+    color: transparent; }
   #img13:hover {
     background-image: none;
     background-color: white;
@@ -272,11 +327,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img13:hover a {
+      color: black; }
 
 #img14 {
   background-image: url("../images/14.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img14 a {
+    color: transparent; }
   #img14:hover {
     background-image: none;
     background-color: white;
@@ -287,11 +346,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img14:hover a {
+      color: black; }
 
 #img15 {
   background-image: url("../images/15.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img15 a {
+    color: transparent; }
   #img15:hover {
     background-image: none;
     background-color: white;
@@ -302,11 +365,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img15:hover a {
+      color: black; }
 
 #img16 {
   background-image: url("../images/16.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img16 a {
+    color: transparent; }
   #img16:hover {
     background-image: none;
     background-color: white;
@@ -317,11 +384,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img16:hover a {
+      color: black; }
 
 #img17 {
   background-image: url("../images/17.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img17 a {
+    color: transparent; }
   #img17:hover {
     background-image: none;
     background-color: white;
@@ -332,11 +403,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img17:hover a {
+      color: black; }
 
 #img18 {
   background-image: url("../images/18.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img18 a {
+    color: transparent; }
   #img18:hover {
     background-image: none;
     background-color: white;
@@ -347,11 +422,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img18:hover a {
+      color: black; }
 
 #img19 {
   background-image: url("../images/19.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img19 a {
+    color: transparent; }
   #img19:hover {
     background-image: none;
     background-color: white;
@@ -362,11 +441,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img19:hover a {
+      color: black; }
 
 #img20 {
   background-image: url("../images/20.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img20 a {
+    color: transparent; }
   #img20:hover {
     background-image: none;
     background-color: white;
@@ -377,11 +460,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img20:hover a {
+      color: black; }
 
 #img21 {
   background-image: url("../images/21.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img21 a {
+    color: transparent; }
   #img21:hover {
     background-image: none;
     background-color: white;
@@ -392,11 +479,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img21:hover a {
+      color: black; }
 
 #img22 {
   background-image: url("../images/22.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img22 a {
+    color: transparent; }
   #img22:hover {
     background-image: none;
     background-color: white;
@@ -407,11 +498,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img22:hover a {
+      color: black; }
 
 #img23 {
   background-image: url("../images/23.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img23 a {
+    color: transparent; }
   #img23:hover {
     background-image: none;
     background-color: white;
@@ -422,11 +517,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img23:hover a {
+      color: black; }
 
 #img24 {
   background-image: url("../images/24.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img24 a {
+    color: transparent; }
   #img24:hover {
     background-image: none;
     background-color: white;
@@ -437,11 +536,15 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img24:hover a {
+      color: black; }
 
 #img25 {
   background-image: url("../images/25.jpg");
   background-size: contain;
   background-repeat: no-repeat; }
+  #img25 a {
+    color: transparent; }
   #img25:hover {
     background-image: none;
     background-color: white;
@@ -452,6 +555,8 @@ table {
     font-style: italic;
     text-transform: lowercase;
     font-weight: 200; }
+    #img25:hover a {
+      color: black; }
 
 ul {
   padding: 0;
@@ -664,6 +769,20 @@ section {
     margin: 0 auto;
     position: absolute;
     top: 5px; }
+
+@media (max-width: 883px) {
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    section .container {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      position: absolute;
+      top: 5px; } }
 
 footer {
   width: 100%;
